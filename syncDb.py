@@ -2,7 +2,7 @@ import requests
 import MySQLdb
 import json
 
-db = MySQLdb.connect(host="localhost", user="root", passwd="Paytm@197", db="mishipay")
+db = MySQLdb.connect(host="localhost", user="root", passwd="passwd", db="mishipay")
 cursor = db.cursor()
 
 query = "INSERT INTO product(product_id, title, vendor, status, varients_id) VALUES(%s, %s, %s, %s, %s)"

@@ -9,7 +9,7 @@ class Queries:
 
     def connect_db(self):
         self.db = MySQLdb.connect(
-            host="localhost", user="root", passwd="Paytm@197", db="mishipay"
+            host="localhost", user="root", passwd="PASSWORD", db="mishipay"
         )
         self.cursor = self.db.cursor()
 
